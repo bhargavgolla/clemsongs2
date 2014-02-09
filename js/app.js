@@ -1,3 +1,6 @@
+var suggestionTemplateGen = function(obj){
+    return '<p class="courseId">'+obj.courseid+'<br/>'+obj.type+'</p><p class="courseName">'+obj.coursename+'</p><p class="courseDescription">'+obj.description+'</p>';
+}
 $(document).ready(function(){
     var option = "";
     var courses = new Bloodhound({
@@ -71,10 +74,13 @@ $(document).ready(function(){
     $('input.typeahead').typeahead(null, {
         name: 'cpscCourses',
         displayKey: 'coursename',
-        source: courses.ttAdapter()
+        source: courses.ttAdapter(),
+        templates: {
+            suggestion: suggestionTemplateGen
+        }
     });
     $('input.typeahead').on("typeahead:selected",function(obj, datum, name) {
-        $('.typeahead').typeahead('val',"");
+        $('input.typeahead').typeahead('val',"");
         console.log(datum);
     });
 });

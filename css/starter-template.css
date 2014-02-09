@@ -96,3 +96,25 @@ body {
 .tt-suggestion p {
   margin: 0;
 }
+
+#courses .tt-suggestion {
+  padding: 8px 20px;
+}
+
+#courses .tt-suggestion + .tt-suggestion {
+  border-top: 1px solid #ccc;
+}
+
+#courses .courseId,#courses .courseCategory {
+  float: right;
+  font-style: italic;
+  text-align: right;
+}
+
+#courses .courseName {
+  font-weight: bold;
+}
+
+#courses .courseDescription {
+  font-size: 14px;
+}
