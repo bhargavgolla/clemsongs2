@@ -15,7 +15,7 @@
 		<link href="./css/bootstrap.min.css" rel="stylesheet">
 
 		<!-- Custom styles for this template -->
-		<link href="./css/cover.css" rel="stylesheet">
+		<link href="./css/starter-template.css" rel="stylesheet">
 
 		<!-- Just for debugging purposes. Don't actually copy this line! -->
 		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -28,58 +28,59 @@
 	</head>
 
 	<body>
-
-		<div class="site-wrapper">
-
-			<div class="site-wrapper-inner">
-
-				<div class="cover-container">
-
-					<div class="masthead clearfix">
-						<div class="inner">
-							<h3 class="masthead-brand">SoC GS-2 Planner</h3>
-							<ul class="nav masthead-nav">
-								<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-								<li><a href="#about" data-toggle="tab">About</a></li>
-								<li><a href="#issues" data-toggle="tab">Issues?</a></li>
-							</ul>
-						</div>
+		<div id="wrap">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">SoC GS-2 Planner</a>
 					</div>
-					<div class="tab-content">
-						<div class="tab-pane fade in inner cover active" id="home">
-							<h1 class="cover-heading">Which option are you choosing?</h1>
-							<div class="lead">
-								<a href="#" class="btn btn-lg btn-default">Coursework-only</a>
-								<a href="#" class="btn btn-lg btn-default">Thesis</a>
-							</div>
-						</div>
-						<div class="tab-pane fade" id="about">
-							<h1 class="cover-heading">What is this?</h1>
-							<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-							<p class="lead">
-								<a href="#" class="btn btn-lg btn-default">Learn more</a>
-							</p>
-						</div>
-						<div class="tab-pane fade" id="issues">
-							<h1 class="cover-heading">Found a bug?</h1>
-							<p class="lead">Do report it.</p>
-							<p class="lead">
-								<a href="#" class="btn btn-lg btn-default">Click to report</a>
-							</p>
-						</div>
-					</div>
-
-					<div class="mastfoot">
-						<div class="inner">
-							<p>Developed by <a href="http://github.com/bhargavgolla">Bhargav Golla</a> and <a href="http://about.me/gouthampacha">Gautam Pacha Ravi</a>.</p>
-							<p>Using Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-						</div>
-					</div>
-
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+							<li><a href="#about" data-toggle="tab">About</a></li>
+							<li><a href="#issues" data-toggle="tab">Issue?</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
 				</div>
-
 			</div>
 
+			<div class="container">
+				<div class="tab-content">
+					<div class="tab-pane fade in inner cover active" id="home">
+						<h1 class="cover-heading">Which option are you choosing?</h1>
+						<div class="lead">
+							<a href="#" class="btn btn-lg btn-default">Coursework-only</a>
+							<a href="#" class="btn btn-lg btn-default">Thesis</a>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="about">
+						<h1 class="cover-heading">What is this?</h1>
+						<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+						<p class="lead">
+							<a href="#" class="btn btn-lg btn-default">Learn more</a>
+						</p>
+					</div>
+					<div class="tab-pane fade" id="issues">
+						<h1 class="cover-heading">Found a bug?</h1>
+						<p class="lead">Do report it.</p>
+						<p class="lead">
+							<a href="#" class="btn btn-lg btn-default">Click to report</a>
+						</p>
+					</div>
+				</div>
+			</div><!-- /.container -->
+		</div>
+
+		<div id="footer">
+			<div class="container">
+				<p class="text-muted">Developed by <a href="http://github.com/bhargavgolla" target="_blank">Bhargav Golla</a> and <a href="http://about.me/gouthampacha" target="_blank">Gautam Pacha Ravi</a>.</p>
+			</div>
 		</div>
 
 		<!-- Bootstrap core JavaScript
@@ -87,6 +88,5 @@
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="./js/bootstrap.min.js"></script>
-		<script src="./js/docs.min.js"></script>
 	</body>
 </html>
