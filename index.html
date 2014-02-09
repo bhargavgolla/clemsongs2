@@ -55,8 +55,8 @@
 					<div class="tab-pane fade in inner cover active" id="home">
 						<h1 class="cover-heading">Which option are you choosing?</h1>
 						<div class="lead">
-							<a href="#" class="btn btn-lg btn-default">Coursework-only</a>
-							<a href="#" class="btn btn-lg btn-default">Thesis</a>
+							<a href="#courses" class="option btn btn-lg btn-default" data-toggle="tab">Coursework-only</a>
+							<a href="#courses" class="option btn btn-lg btn-default" data-toggle="tab">Thesis</a>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="about">
@@ -72,6 +72,12 @@
 						<p class="lead">
 							<a href="#" class="btn btn-lg btn-default">Click to report</a>
 						</p>
+					</div>
+					<div class="tab-pane fade" id="courses">
+						<h1 class="cover-heading">Which courses are you taking?</h1>
+						<div>
+							<input class="typeahead tt-input form-control" type="text" placeholder="Type course you wish to choose" autocomplete="off">
+						</div>
 					</div>
 				</div>
 			</div><!-- /.container -->
