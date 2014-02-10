@@ -33,11 +33,10 @@ body {
 }
 
 /*TypeAhead*/
-.typeahead,
+/*.typeahead,
 .tt-query,
 .tt-hint {
-  width: 396px;
-  height: 30px;
+  width: 100%;
   padding: 8px 12px;
   font-size: 24px;
   line-height: 30px;
@@ -46,7 +45,7 @@ body {
      -moz-border-radius: 8px;
           border-radius: 8px;
   outline: none;
-}
+}*/
 
 .typeahead {
   background-color: #fff;
@@ -67,7 +66,6 @@ body {
 }
 
 .tt-dropdown-menu {
-  width: 422px;
   margin-top: 12px;
   padding: 8px 0;
   background-color: #fff;
@@ -83,8 +81,6 @@ body {
 
 .tt-suggestion {
   padding: 3px 20px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .tt-suggestion.tt-cursor {
@@ -113,8 +109,4 @@ body {
 
 #courses .courseName {
   font-weight: bold;
-}
-
-#courses .courseDescription {
-  font-size: 14px;
 }

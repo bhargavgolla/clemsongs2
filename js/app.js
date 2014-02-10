@@ -9,6 +9,9 @@ $(document).ready(function(){
             prefetch: './assets/courses.json'
     });
     courses.initialize();
+    $('.form-control').focus(function(){
+        $('.tt-dropdown-menu').width($('.tt-input').width());
+    });
 	$('ul.navbar-nav>li').click(function(){
 		if ($('button.navbar-toggle').is(':visible')) {
 			$('div.navbar-collapse').collapse('hide');
