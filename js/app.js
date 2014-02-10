@@ -6,7 +6,7 @@ $(document).ready(function(){
     var courses = new Bloodhound({
 	    datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.courseid+" "+d.coursename+" "+d.type); },
 	    queryTokenizer: Bloodhound.tokenizers.whitespace,
-            prefetch: '../assets/courses.json'
+            prefetch: './assets/courses.json'
     });
     courses.initialize();
 	$('ul.navbar-nav>li').click(function(){
