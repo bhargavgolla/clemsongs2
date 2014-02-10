@@ -110,3 +110,7 @@ body {
 #courses .courseName {
   font-weight: bold;
 }
+
+#accordion{
+    margin-top:20px;
+}
