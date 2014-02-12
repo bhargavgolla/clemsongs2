@@ -10,7 +10,7 @@ $(document).ready(function(){
     });
     courses.initialize();
     $('.form-control').focus(function(){
-        $('.tt-dropdown-menu').width($('.tt-input').width());
+        $('.tt-dropdown-menu').width($('.tt-input').outerWidth());
     });
 	$('ul.navbar-nav>li').click(function(){
 		if ($('button.navbar-toggle').is(':visible')) {
