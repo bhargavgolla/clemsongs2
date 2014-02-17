@@ -13,7 +13,7 @@
     "spring": "spring-all",
     "coursename": "Design and Analysis of Algorithms",
     "description": "XYZZYSPOON!",
-    "type": "Computing Foundations"
+    "type": "ComputingFoundations"
   },
   {
     "courseid": "CPSC 8620",
@@ -29,7 +29,7 @@
     "spring": "spring-none",
     "coursename": "Introduction to Human Centered Computing",
     "description": "XYZZYSPOON!",
-    "type": "Interactive Computing"
+    "type": "InteractiveComputing"
   },
   {
     "courseid": "CPSC 8100",
