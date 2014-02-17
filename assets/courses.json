@@ -1,35 +1,14 @@
 [
   {
-    "courseid": "CPSC 8700",
+    "courseid": "CPSC 6620",
     "fall": "fall-all",
-    "spring": "spring-none",
-    "coursename": "Introduction to Biometrics",
-    "description": "XYZZYSPOON!",
-    "type": "Applications"
-  },
-  {
-    "courseid": "CPSC 8400",
-    "fall": "fall-none",
     "spring": "spring-all",
-    "coursename": "Design and Analysis of Algorithms",
+    "coursename": "Database Management Systems",
     "description": "XYZZYSPOON!",
-    "type": "ComputingFoundations"
-  },
-  {
-    "courseid": "CPSC 8620",
-    "fall": "fall-none",
-    "spring": "spring-all",
-    "coursename": "Database Management System Design",
-    "description": "XYZZYSPOON!",
-    "type": "Applications"
-  },
-  {
-    "courseid": "CPSC 8310",
-    "fall": "fall-all",
-    "spring": "spring-none",
-    "coursename": "Introduction to Human Centered Computing",
-    "description": "XYZZYSPOON!",
-    "type": "InteractiveComputing"
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
   },
   {
     "courseid": "CPSC 8100",
@@ -37,24 +16,374 @@
     "spring": "spring-none",
     "coursename": "Introduction to Artificial Intelligence",
     "description": "XYZZYSPOON!",
-    "type": "Applications"
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
   },
   {
-    "courseid": "CPSC 6620",
+    "courseid": "CPSC 8450",
     "fall": "fall-all",
-    "spring": "spring-all",
-    "coursename": "Database Management Systems",
+    "spring": "spring-none",
+    "coursename": "Bioinformatics Algorithms",
     "description": "XYZZYSPOON!",
-    "type": "Applications"
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
   },
-    {
-    "courseid": "CPSC 6120",
+  {
+    "courseid": "CPSC 8620",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Database Management System Design",
+    "description": "XYZZYSPOON!",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8630",
+    "fall": "fall-none",
+    "spring": "spring-odd",
+    "coursename": "Multimedia Systems and Applications",
+    "description": "XYZZYSPOON!",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8650",
+    "fall": "fall-none",
+    "spring": "spring-even",
+    "coursename": "Data Mining",
+    "description": "XYZZYSPOON!",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8770",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Introduction to Biometrics",
+    "description": "XYZZYSPOON!",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
+  },
+
+
+  {
+    "courseid": "CPSC 8280",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Theory of Programming Languages",
+    "description": "XYZZYSPOON!",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8380",
+    "fall": "fall-even",
+    "spring": "spring-none",
+    "coursename": "Advanced Data Structures",
+    "description": "XYZZYSPOON!",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8390",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Foundations of Theoretical CS",
+    "description": "XYZZYSPOON!",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8400",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Design and Analysis of Algorithms",
+    "description": "XYZZYSPOON!",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 9400",
+    "fall": "fall-odd",
+    "spring": "spring-none",
+    "coursename": "Topics in Advanced Algorithms",
+    "description": "XYZZYSPOON!",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":false,
+    "impl":false
+  },
+
+
+  {
+    "courseid": "CPSC 6040",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Computer Graphics Images",
+    "description": "XYZZYSPOON!",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 6050",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Computer Graphics",
+    "description": "XYZZYSPOON!",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8170",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Physically Based Animation",
+    "description": "XYZZYSPOON!",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8050",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Advanced Computer Graphics",
+    "description": "XYZZYSPOON!",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8190",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Physically Based Special Effects",
+    "description": "XYZZYSPOON!",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":true
+  },
+
+
+  {
+    "courseid": "CPSC 6110",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Virtual Reality",
+    "description": "XYZZYSPOON!",
+    "type": "InteractiveComputing",
+    "typeFull": "Interactive Computing",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 6140",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Human and Computer Interaction",
+    "description": "XYZZYSPOON!",
+    "type": "InteractiveComputing",
+    "typeFull": "Interactive Computing",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8310",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Introduction to Human Centered Computing",
+    "description": "XYZZYSPOON!",
+    "type": "InteractiveComputing",
+    "typeFull": "Interactive Computing",
+    "formal":false,
+    "impl":false
+  },
+
+
+  {
+    "courseid": "CPSC 8700",
+    "fall": "fall-even",
+    "spring": "spring-none",
+    "coursename": "Software Design",
+    "description": "XYZZYSPOON!",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8710",
+    "fall": "fall-odd",
+    "spring": "spring-none",
+    "coursename": "Foundations of Software Engineering",
+    "description": "XYZZYSPOON!",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8720",
+    "fall": "fall-even",
+    "spring": "spring-none",
+    "coursename": "Software Specification and Design Techniques",
+    "description": "XYZZYSPOON!",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8730",
+    "fall": "fall-odd",
+    "spring": "spring-none",
+    "coursename": "Software Verification, validation, & Measurements",
+    "description": "XYZZYSPOON!",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8750",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Software Architecture",
+    "description": "XYZZYSPOON!",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":false,
+    "impl":false
+  },
+
+
+  {
+    "courseid": "CPSC 6060",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "General Purpose Computings on GPUs",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8200",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Parallel Architectures",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8240",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Advanced OS",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8220",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Case Study in Operating Systems",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8270",
     "fall": "fall-all",
     "spring": "spring-all",
-    "coursename": "Database Design Systems",
-    "description": "Hola!",
-    "type": "Applications"
+    "coursename": "Translation of Programming Languages",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8290",
+    "fall": "fall-all",
+    "spring": "spring-all",
+    "coursename": "Advanced Compiler Topics",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8300",
+    "fall": "fall-none",
+    "spring": "spring-even",
+    "coursename": "Systems Modeling",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8510",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Software Systems for Data Communications",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8550",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Embedded Network Systems",
+    "description": "XYZZYSPOON!",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":true
   }
+
 ]
 
 
