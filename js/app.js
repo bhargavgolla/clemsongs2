@@ -109,8 +109,9 @@ var checkGrad = function(option) {
         $("#info").hide();
         $("#error").show();
         console.log(issues);
+        $("#error #gradIssues").empty();
         issues.forEach(function(issue,index){
-            $("#error").append("<p>"+issue+"</p>");
+            $("#error #gradIssues").append("<p>"+issue+"</p>");
         });
     }
     
