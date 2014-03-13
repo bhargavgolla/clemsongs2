@@ -139,10 +139,12 @@ $(document).ready(function(){
 			$('div.navbar-collapse').collapse('hide');
 		}
 	});
-    $('input.typeahead').typeahead(null, {
+    $('input.typeahead').typeahead({
+        highlight: true,
+    },
+    {
         name: 'cpscCourses',
         displayKey: 'coursename',
-        highlight: true,
         source: courses.ttAdapter(),
         templates: {
             suggestion: suggestionTemplateGen
