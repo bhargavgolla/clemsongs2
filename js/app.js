@@ -141,7 +141,6 @@ $(document).ready(function(){
 	});
     $('input.typeahead').typeahead({
         highlight: true,
-        autoselect: true
     },
     {
         name: 'cpscCourses',
