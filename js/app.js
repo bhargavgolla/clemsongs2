@@ -142,6 +142,7 @@ $(document).ready(function(){
     $('input.typeahead').typeahead(null, {
         name: 'cpscCourses',
         displayKey: 'coursename',
+        highlight: true,
         source: courses.ttAdapter(),
         templates: {
             suggestion: suggestionTemplateGen
