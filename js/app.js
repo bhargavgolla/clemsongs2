@@ -98,7 +98,7 @@ var checkGrad = function(option) {
         $("#success").show();
         $("#info").hide();
         $("#error").hide();
-    } else if (graduateAble == 2) {
+    } else if (graduateAble == 1) {
         $("#info #option").text(option);
         $("#info #concentration").text(concField);
         $("#success").hide();
