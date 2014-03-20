@@ -102,6 +102,8 @@ var checkGrad = function(option) {
         $("#info #option").text(option);
         $("#info #concentration").text(concField);
         $("#success").hide();
+        balance = (10 - addedCourseDatums.length)*3;
+        $("#balance").text(balance);
         $("#info").show();
         $("#error").hide();
     } else {
