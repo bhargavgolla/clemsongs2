@@ -160,12 +160,24 @@ $(document).ready(function(){
     $('#gradCheck').click(function(){
 		checkGrad(option);
 	});
+    $('#generatePdf').click(function(){
+        var doc = new jsPDF();
+
+        // We'll make our own renderer to skip this editor
+        var specialElementHandlers = {
+            '#editor': function(element, renderer){
+                return true;
+            }
+        };
+
+        // All units are in the set measurement for the document
+        // This can be changed to "pt" (points), "mm" (Default), "cm", "in"
+        doc.fromHTML($('#courses').get(0), 15, 15, {
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Test.pdf');
+    });
     $( document ).on( "click", ".alert", function() {
         removeCourse($("strong",this).text());
     });
-    //TODO handle case when user removes course
-//    $('.alert').live('closed.bs.alert', function () {
-//        alert("Hi");
-//        console.log("Hi"+$(this).text());
-//    });
 });
