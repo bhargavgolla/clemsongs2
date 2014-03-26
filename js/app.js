@@ -8,7 +8,7 @@ var addCourse = function(datum) {
     if (addedCourses.indexOf(datum.courseid) == -1) {
         addedCourses.push(datum.courseid);
         addedCourseDatums.push(datum);
-        var course = '<div class="courseAdded alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>'+datum.courseid+':'+datum.coursename+'</strong></div>';
+        var course = '<div class="courseAdded alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+datum.courseid+':'+datum.coursename+'</div>';
         $('#conc'+datum.type+' div.panel-body').append(course);
         $('#conc'+datum.type).collapse('show');
     }
@@ -162,31 +162,31 @@ $(document).ready(function(){
 		checkGrad(option);
 	});
     $('#generatePdf').click(function(){
-        /*var doc = new jsPDF();
+        var doc = new jsPDF();
 
         // We'll make our own renderer to skip this editor
         var specialElementHandlers = {
-            '#editor': function(element, renderer){
+            '.close': function(element, renderer){
                 return true;
             }
         };
 
         // All units are in the set measurement for the document
         // This can be changed to "pt" (points), "mm" (Default), "cm", "in"
-        doc.fromHTML($('#courses')[0], 15, 15, {
+        doc.fromHTML($('#accordion')[0], 15, 15, {
             'elementHandlers': specialElementHandlers
         });
-        //doc.save('Test.pdf');
-        doc.autoPrint();*/
+        doc.save('GS2forYourRef.pdf');
+        //doc.autoPrint();
         ga('send', 'event', 'Prints', 'click', 'print', 1);
-        var printContents = document.getElementById("accordion").innerHTML;
+        /*var printContents = document.getElementById("accordion").innerHTML;
         var originalContents = document.body.innerHTML;
 
         document.body.innerHTML = printContents;
 
         window.print();
 
-        document.body.innerHTML = originalContents;
+        document.body.innerHTML = originalContents;*/
     });
     $('.option').on("click",function(){
         console.log($(this).text());
