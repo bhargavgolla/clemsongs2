@@ -158,6 +158,7 @@ $(document).ready(function(){
         addCourse(datum);
     });
     $('#gradCheck').click(function(){
+        ga('send', 'event', 'Graduate', 'click', 'gradcheck', 1);
 		checkGrad(option);
 	});
     $('#generatePdf').click(function(){
@@ -177,6 +178,7 @@ $(document).ready(function(){
         });
         //doc.save('Test.pdf');
         doc.autoPrint();*/
+        ga('send', 'event', 'Prints', 'click', 'print', 1);
         var printContents = document.getElementById("accordion").innerHTML;
         var originalContents = document.body.innerHTML;
 
@@ -185,6 +187,14 @@ $(document).ready(function(){
         window.print();
 
         document.body.innerHTML = originalContents;
+    });
+    $('.option').on("click",function(){
+        console.log($(this).text());
+        ga('send', 'event', 'Course choice', 'click', $(this).text(), 1);
+    });
+    $('.reportIssue').on("click",function(){
+        console.log($(this).text());
+        ga('send', 'event', 'Issues', 'click', $(this).text(), -1);
     });
     $( document ).on( "click", ".alert", function() {
         removeCourse($("strong",this).text());
