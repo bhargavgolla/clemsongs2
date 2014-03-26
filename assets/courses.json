@@ -1,0 +1,389 @@
+[
+  {
+    "courseid": "CPSC 6620",
+    "fall": "fall-all",
+    "spring": "spring-all",
+    "coursename": "Database Management Systems",
+    "description": "Introduction to database/data communications concepts as related to the design of online information systems. Problems involving structuring, creating, maintaining, and accessing multiple-user databases are presented and solutions developed. Comparison of several commercially available teleprocessing monitor and database management systems is made. Students are expected to have completed coursework in data structures.",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8100",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Introduction to Artificial Intelligence",
+    "description": "Problem solving and game playing; knowledge representation; expert systems; natural language processing; perception and learning.",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8450",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Bioinformatics Algorithms",
+    "description": "Covers algorithms such as dynamic programming for biological problems, including sequence alignment and phylogeny tree constructions; statistical and mathematical modeling of high throughput data, such as differentially expressed genes from microarray data and HMM for gene prediction; graph and network theory for biological networks.",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8620",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Database Management System Design",
+    "description": "Concepts and structures for design and implementation of a DBMS; theoretical foundations for query systems; data modeling and information representation; user interface and internal system design considerations; system performance modeling and measurement; topics from the literature. Preq: CPSC 6620.",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8630",
+    "fall": "fall-none",
+    "spring": "spring-odd",
+    "coursename": "Multimedia Systems and Applications",
+    "description": "Principles of multimedia systems and applications; techniques in effectively representing, processing and retrieving multimedia data such as sound and music, graphics, image and video; operating system and network issues in supporting multimedia; advanced topics in current multimedia research. Term project requires implementing some selected components of a multimedia system.",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8650",
+    "fall": "fall-none",
+    "spring": "spring-even",
+    "coursename": "Data Mining",
+    "description": "Study of principles of data mining: concepts and techniques of data analysis including regression, clustering, classification, association, prediction, etc.; efficient data mining algorithms; data mining applications in various areas including market analysis and management, WWW mining, bioinformatics, etc. Course projects for designing and using data mining algorithms in the applications are required. Students are expected to have knowledge of statistics and database systems.",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8770",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Introduction to Biometrics",
+    "description": "Methods and principles for the automatic identification/authentication of individuals. Technologies include fingerprint, face, iris and hand geometry. Additional topics include biometric system design, performance evaluation, multi-modal biometrics and ethics/privacy issues.",
+    "type": "Applications",
+    "typeFull": "Applications",
+    "formal":false,
+    "impl":false
+  },
+
+
+  {
+    "courseid": "CPSC 8280",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Theory of Programming Languages",
+    "description": "Syntax and semantics of programming languages; finite state and pushdown processors; context-free models of syntax; parsing algorithms and semantic models. Students are expected to have completed coursework in formal language theory and survey of programming languages.",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8380",
+    "fall": "fall-even",
+    "spring": "spring-none",
+    "coursename": "Advanced Data Structures",
+    "description": "Search trees; data structures for sets; index structures for data bases; data abstraction and automated implementation; implicit data structures; storage compaction of lists; data structures for decision trees; data structures in areas such as computer graphics, artificial intelligence, picture processing and simulation.",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8390",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Foundations of Theoretical CS",
+    "description": "Preparation for the study of advanced issues in computational complexity, algorithm correctness and inherent limits to computing; set theory and proof techniques; classes of the Chomsky hierarchy. Students are expected to have completed coursework in formal languages and automata.",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8400",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Design and Analysis of Algorithms",
+    "description": "Basic techniques for design and analysis of algorithms; models and techniques for obtaining upper and lower time and space bounds; time/space trade-offs; inherently difficult problems. Students are expected to have completed coursework in discrete mathematics.",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 9400",
+    "fall": "fall-odd",
+    "spring": "spring-none",
+    "coursename": "Topics in Advanced Algorithms",
+    "description": "Study of selected topics in advanced algorithms drawn from graph algorithms (network flows, matchings, cuts, planarity testing), approximation algorithms (traveling salesman, linear relaxation techniques), distributed algorithms (mutual exclusion, synchronization, self-stabilization), parallel algorithms (parallel prefix, models, sorting), or randomized algorithms (sampling, probabilistic methods, random walks). May be repeated for a maximum of nine credits, but only if different topics are covered. Preq: CPSC 8400.",
+    "type": "ComputingFoundations",
+    "typeFull": "Computing Foundations",
+    "formal":false,
+    "impl":false
+  },
+
+
+  {
+    "courseid": "CPSC 6040",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Computer Graphics Images",
+    "description": "Presents the theory and practice behind the generation and manipulation of two-dimensional digital images within a computer graphics context. Image representation and storage, sampling and reconstruction, color systems, affine and general warps, enhancement and morphology, compositing, morphing, and non-photorealistic transformations. Students are expected to have completed coursework in data structures and linear algebra.",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 6050",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Computer Graphics",
+    "description": "Computational, mathematical, physical and perceptual principles underlying the production of effective three-dimensional computer graphics imagery. Students are expected to have completed coursework in data structures and linear algebra.",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8170",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Physically Based Animation",
+    "description": "Physically based modeling and dynamic simulation techniques as used for the automatic description of motion and geometry for animation and computer graphics. A variety of approaches are explored, with a special emphasis on the use of particle-systems to represent complex phenomena.",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8050",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Advanced Computer Graphics",
+    "description": "Advanced techniques used in the artificial rendering of natural scenes; current practice in computer graphics; full software implementation of each technique; extensive coding. Preq: CPSC 6050.",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8190",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Physically Based Special Effects",
+    "description": "The use of physically-based dynamic simulation techniques in the production of digital special effects. Course emphasizes tools, techniques and pipeline. Laboratory assignments are done using both commercial software and student’s custom code. Preq: CPSC 8170.",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":true
+  },
+
+
+  {
+    "courseid": "CPSC 6110",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Virtual Reality",
+    "description": "Design and implementation of software systems necessary to create virtual environments. Discusses techniques for achieving real-time, dynamic display of photorealistic, synthetic images. Includes hands-on experience with electromagnetically-tracked, head-mounted displays and requires, as a final project, the design and construction of a virtual environment. Students are expected to have completed coursework in data structures.",
+    "type": "InteractiveComputing",
+    "typeFull": "Interactive Computing",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 6140",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Human and Computer Interaction",
+    "description": "Survey of human and computer interaction, its literature, history, and techniques. Covers cognitive and social models and limitations, hardware and software interface components, design methods, support for design, and evaluation methods. Students are expected to have completed course-work in data structures.",
+    "type": "InteractiveComputing",
+    "typeFull": "Interactive Computing",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8310",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Introduction to Human Centered Computing",
+    "description": "No description available",
+    "type": "InteractiveComputing",
+    "typeFull": "Interactive Computing",
+    "formal":false,
+    "impl":false
+  },
+
+
+  {
+    "courseid": "CPSC 8700",
+    "fall": "fall-even",
+    "spring": "spring-none",
+    "coursename": "Software Design",
+    "description": "Fundamental concepts of object modeling using object-oriented analysis and design; realistic application of software engineering principles within a variety of problem domains;mainstream language with facilities for object-training programming. Students who enroll in this course are expected to be proficient in programming in a procedural language.",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8710",
+    "fall": "fall-odd",
+    "spring": "spring-none",
+    "coursename": "Foundations of Software Engineering",
+    "description": "Techniques and issues in software design and development; tools, methodologies and environments for effective design, development and testing of software; organizing and managing the development of software projects. Preq: Enrollment in Computer Science program.",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8720",
+    "fall": "fall-even",
+    "spring": "spring-none",
+    "coursename": "Software Specification and Design Techniques",
+    "description": "Techniques, tools, environments and formal methods for software specification and design; verification of design correctness. Students are expected to have completed coursework in software engineering.",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8730",
+    "fall": "fall-odd",
+    "spring": "spring-none",
+    "coursename": "Software verification, validation and measurement",
+    "description": "Proofs of correctness; test planning; static and dynamic testing; symbolic execution; automated testing; verification and validation over the software life cycle; software metrics; software maintenance. Students are expected to have completed coursework in software engineering.",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":true,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8750",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Software Architecture",
+    "description": "Creation, analysis and maintenance of architectures for software systems. Basic principles, patterns and techniques. Quality attributes of the architecture are used to make a quantitative analysis. Students create and analyze two architectures from different domains.",
+    "type": "SoftwareEngineering",
+    "typeFull": "Software Engineering",
+    "formal":false,
+    "impl":false
+  },
+
+
+  {
+    "courseid": "CPSC 6060",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "General Purpose Computings on GPUs",
+    "description": "Instruction in the design and implementation of highly parallel, GPU-based solutions to computationally intensive problems from a variety of disciplines. The OpenCL language with inter-operable OpenGL components is used. Applications to models of physical systems are discussed in detail. Students are expected to have completed coursework in data structures, calculus, and linear algebra.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8200",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Parallel Architectures",
+    "description": "Study of parallel processing issues including vector and pipeline processors, arrays of processing elements, associative processors, data flow computers, networks of processors. Also includes survey of parallel programming languages, design and implementation of parallel algorithms, and future trends. Students are expected to have completed coursework in computer organization.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8240",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Advanced OS",
+    "description": "Recent trends in system design and implementation; operating system structures to support reliable secure systems; verification techniques; fault tolerant systems; operating system considerations for closely coupled multiprocessor systems; network operating systems. Students are expected to have completed coursework in operating systems.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8220",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Case Study in Operating Systems",
+    "description": "Case study of the design of an operating system. Class periods are devoted to reviewing source code and deducing the structure of the system. Lab exercises require students to make major changes to the system to enhance its performance on particular workloads. Students are expected to have completed coursework in operating systems. Coreq: CPSC 8221.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8270",
+    "fall": "fall-all",
+    "spring": "spring-all",
+    "coursename": "Translation of Programming Languages",
+    "description": "Theoretical foundations and algorithms for compiling and interpreting programming languages. Topics include lexical analysis, syntactic analysis, semantics analysis, optimization and code generation. Implementation of a compiler or a major component of a compiler is normally a term project. Students are expected to have completed coursework in formal language theory and survey of programming languages.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8290",
+    "fall": "fall-all",
+    "spring": "spring-all",
+    "coursename": "Advanced Compiler Topics",
+    "description": "Code generation, register allocation, program optimization, data flow, interprocedural operations, parallel compilation and distributed compilation. Preq: CPSC 8270.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":true
+  },
+  {
+    "courseid": "CPSC 8300",
+    "fall": "fall-none",
+    "spring": "spring-even",
+    "coursename": "Systems Modeling",
+    "description": "Fundamental concepts and techniques used in the stochastic modeling of computer and computer-based communication systems. Applications include hardware configuration design, software performance evaluation and reliability estimation of fault-tolerant systems. Preq: MTHS 6000 or MTHS 8000.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8510",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Software Systems for Data Communications",
+    "description": "Structure of software systems supporting communications among computing devices having diverse processing and communication capabilities; characterization of data communications software in terms of unified network architectures consisting of several functional layers; evaluation of several network architectures.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "CPSC 8550",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "Embedded Network Systems",
+    "description": "Discusses hardware fundamentals, technology applications, operating systems, programming platforms, software design and implementation, energy conservation techniques, self-stabilization paradigm, routing algorithms, clustering algorithms, time synchronization algorithms and sensor-actuator integration.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":true
+  }
+
+]
+
+

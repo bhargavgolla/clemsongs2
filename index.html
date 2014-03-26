@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Clemson University's School of Computing GS2 Planner">
+		<meta name="author" content="Bhargav Golla; Gautam Ravi">
+		<link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+		<title>GS2 Planner - School of Computing, Clemson University</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="./css/starter-template.css" rel="stylesheet">
+
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-49418102-1', 'bhargavgolla.github.io');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<p class="navbar-brand">SoC GS-2 Planner</p>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+							<li><a href="#about" data-toggle="tab">About</a></li>
+							<li><a href="#issues" data-toggle="tab">Issue?</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="tab-content">
+					<div class="tab-pane fade in inner cover active" id="home">
+						<h1 class="cover-heading">Which option are you choosing?</h1>
+						<div class="lead">
+							<a href="#courses" class="option btn btn-lg btn-default" data-toggle="tab">Coursework-only</a>
+							<a href="#courses" class="option btn btn-lg btn-default" data-toggle="tab">Thesis</a>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="about">
+						<h1 class="cover-heading">What is this?</h1>
+						<p class="lead">Clemson's School of Computing GS-2 Planner is an application that will let you plan your GS-2 without scribbling on your papers.</p>
+                        <p class="lead">Developed by Bhargav (after he wasted his scribble pad planning courses he would take for Fall) and Gautam (who has the right experience to understand the nuances of GS-2).</p>
+					</div>
+					<div class="tab-pane fade" id="issues">
+						<h1 class="cover-heading">Found a bug?</h1>
+						<p class="lead">Do report it.</p>
+						<p class="lead">
+							<a href="https://github.com/bhargavgolla/clemsongs2/issues" target="_blank" class="reportIssue btn btn-lg btn-default">Click to report on Github</a>
+                            <span>Or</span>
+                            <a href="mailto:bgolla@clemson.edu?subject=%5BClemsonGS2%5D%20Bug%2Ffeature&cc=gpachar@clemson.edu&body=Hi%0A%0A*What%20went%20wrong%20for%20you%3F*%0A%0A*What%20browser%20did%20you%20use%3F*%0A%0A*Any%20other%20information%20you%20think%20that%20can%20help%20us%3F*%0A%0AThanks" class="reportIssue btn btn-lg btn-default">Mail us</a>
+						</p>
+					</div>
+					<div class="tab-pane fade" id="courses">
+						<h1 class="cover-heading">Which courses are you taking?</h1>
+						<div>
+                            <input class="typeahead form-control" type="text" placeholder="Type course you wish to choose">
+						</div>
+                        <div class="panel-group" id="accordion">
+						    <div class="panel panel-default">
+                                <div class="panel-heading">
+						            <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#Concentrations" href="#concApplications">Applications</a>
+                                    </h4>
+						        </div>
+						        <div id="concApplications" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                    </div>
+						        </div>
+                            </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						                <a data-toggle="collapse" data-parent="#Concentrations" href="#concComputingFoundations">Computing Foundations</a>
+						            </h4>
+						        </div>
+						        <div id="concComputingFoundations" class="panel-collapse collapse">
+                                    <div class="panel-body">
+						            </div>
+						        </div>
+                            </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						                <a data-toggle="collapse" data-parent="#Concentrations" href="#concGraphics">Graphics and Visualization</a>
+						            </h4>
+						        </div>
+						        <div id="concGraphics" class="panel-collapse collapse">
+						            <div class="panel-body">
+						            </div>
+						        </div>
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						                <a data-toggle="collapse" data-parent="#Concentrations" href="#concInteractiveComputing">Interactive Computing</a>
+						            </h4>
+						        </div>
+						        <div id="concInteractiveComputing" class="panel-collapse collapse">
+						            <div class="panel-body">
+						            </div>
+						        </div>
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						                <a data-toggle="collapse" data-parent="#Concentrations" href="#concSoftwareEngineering">Software Engineering</a>
+						            </h4>
+						        </div>
+						        <div id="concSoftwareEngineering" class="panel-collapse collapse">
+						            <div class="panel-body">
+						            </div>
+						        </div>
+						    </div>
+						    <div class="panel panel-default">
+						        <div class="panel-heading">
+						            <h4 class="panel-title">
+						                <a data-toggle="collapse" data-parent="#Concentrations" href="#concSystems">Systems and Implementation</a>
+						            </h4>
+						        </div>
+						        <div id="concSystems" class="panel-collapse collapse">
+						            <div class="panel-body">
+						            </div>
+						        </div>
+						    </div>
+                        </div>
+                        <a href="#graduate" class="btn btn-lg btn-default btn-block" id="gradCheck" data-toggle="tab">Can I graduate?</a>
+                    </div>
+                    <div class="tab-pane fade" id="graduate">
+                        <div id="success" class="alert alert-success">
+						    <h1 class="cover-heading">Congrats! You can graduate with this plan.</h1>
+						    <p class="lead">You will now be able to graduate with <span id="option"></span> and concentration in <span id="concentration"></span>.</p>
+                            <p>P.S: Now just ensure that you maintain a GPA of 3.0 which is a requirement too.</p>
+                        </div>
+                        <div id="info" class="alert alert-info">
+						    <h1 class="cover-heading">Congrats! You can graduate with this plan.*</h1>
+						    <p class="lead">You will now be able to graduate with <span id="option"></span> and concentration in <span id="concentration"></span>, provided you have <span id="balance"></span> hours of outside department/transfer credits.</p>
+                            <p>P.S: Now just ensure that you maintain a GPA of 3.0 which is a requirement too.</p>
+                        </div>
+                        <div id="error" class="alert alert-danger">
+						    <h1 class="cover-heading">Oh snap! You can't graduate with this plan.</h1>
+						    <p class="lead">Let me tell you what went wrong.</p>
+                            <div id="gradIssues"></div>
+                        </div>
+                        <a href="#home" class="btn btn-lg btn-default" data-toggle="tab">Start over</a><a href="" class="btn btn-lg btn-default" id="generatePdf">Download GS2 (For your eyes only)</a>
+					</div>
+				</div>
+			</div><!-- /.container -->
+		</div>
+
+		<div id="footer">
+			<div class="container">
+				<p class="text-muted">Developed by <a href="http://github.com/bhargavgolla" target="_blank">Bhargav Golla</a> and <a href="http://about.me/gouthampacha" target="_blank">Goutham Pacha Ravi</a>.</p>
+			</div>
+		</div>
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+        <script src="./js/typeahead.bundle.min.js"></script>
+        <script src="./js/jspdf.js"></script>
+		<script src="./js/app.js"></script>
+	</body>
+</html>
