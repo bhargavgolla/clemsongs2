@@ -2911,7 +2911,7 @@ var jsPDF = (function(global) {
     i = void 0;
     l = void 0;
     t = void 0;
-    handlers = elementHandlers["#" + element.id];
+    handlers = elementHandlers["." + element.className];
     if (handlers) {
       if (typeof handlers === "function") {
         isHandledElsewhere = handlers(element, renderer);
