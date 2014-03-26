@@ -161,7 +161,7 @@ $(document).ready(function(){
 		checkGrad(option);
 	});
     $('#generatePdf').click(function(){
-        var doc = new jsPDF();
+        /*var doc = new jsPDF();
 
         // We'll make our own renderer to skip this editor
         var specialElementHandlers = {
@@ -172,10 +172,19 @@ $(document).ready(function(){
 
         // All units are in the set measurement for the document
         // This can be changed to "pt" (points), "mm" (Default), "cm", "in"
-        doc.fromHTML($('#courses').get(0), 15, 15, {
+        doc.fromHTML($('#courses')[0], 15, 15, {
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Test.pdf');
+        //doc.save('Test.pdf');
+        doc.autoPrint();*/
+        var printContents = document.getElementById("accordion").innerHTML;
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = printContents;
+
+        window.print();
+
+        document.body.innerHTML = originalContents;
     });
     $( document ).on( "click", ".alert", function() {
         removeCourse($("strong",this).text());
