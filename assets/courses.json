@@ -307,6 +307,17 @@
     "impl":false
   },
   {
+    "courseid": "CPSC 6240",
+    "fall": "fall-none",
+    "spring": "spring-all",
+    "coursename": "System Administration and Security",
+    "description": "Covers topics related to the administration and security of computer systems. Primary emphasis is on the administration and security of contemporary operating systems.",
+    "type": "Systems",
+    "typeFull": "Systems and Implementation",
+    "formal":false,
+    "impl":false
+  },
+  {
     "courseid": "CPSC 8200",
     "fall": "fall-all",
     "spring": "spring-none",
