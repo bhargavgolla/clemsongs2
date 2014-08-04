@@ -9,6 +9,7 @@ Try it at [http://git.io/gs2](http://git.io/gs2)
 * [Bootstrap](http://getbootstrap.com/)
 * [Twitter Typeahead.js](https://twitter.github.io/typeahead.js/)
 * [jsPDF](http://parall.ax/products/jspdf)
+
 # Contribute
 Thanks for considering to contribute to the building of this app.
 The app structure is just like any web app. Load this directory using any of your favorite web server.
