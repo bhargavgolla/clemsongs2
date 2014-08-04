@@ -169,6 +169,17 @@
     "impl":false
   },
   {
+    "courseid": "CPSC 8040",
+    "fall": "fall-all",
+    "spring": "spring-none",
+    "coursename": "Data Visualization",
+    "description": "Data visualization is a field of growing importance that combines background expertise in computer graphics, scientific computing, data mining, and image processing. It couples these fields with artistic, psychological, perceptual, and interactivity concerns.",
+    "type": "Graphics",
+    "typeFull": "Graphics and Visualization",
+    "formal":false,
+    "impl":false
+  },
+  {
     "courseid": "CPSC 8050",
     "fall": "fall-all",
     "spring": "spring-none",
