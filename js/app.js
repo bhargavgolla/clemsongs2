@@ -44,6 +44,8 @@ var checkGrad = function(option) {
     var concentrations = {};
     var breadth = 0;
     var concCoursesNo = 2;
+    var outsideCredits = 0;
+    var cpscCredits = 0;
     var concField = "";
     var formal = false;
     var impl = false;
@@ -56,6 +58,11 @@ var checkGrad = function(option) {
         }
         if (course.impl) {
             impl = true;
+        }
+        if (course.courseid.indexOf("Non-CPSC") != -1) {
+            outsideCredits++;
+        } else {
+            cpscCredits++;
         }
         if (concentrations.hasOwnProperty(course.type)) {
             concentrations[course.type]++;
@@ -76,8 +83,13 @@ var checkGrad = function(option) {
     console.log("Concentration Field "+concField);
     console.log("Done with formal "+formal);
     console.log("Done with impl "+impl);
+    console.log("No. of Courses from outside SOC: "+outsideCredits);
     if (addedCourseDatums.length < 10) {
         graduateAble = 1;
+    }
+    if (outsideCredits > 2) {
+        graduateAble = 0;
+        issues.push("You have listed more than 2 courses as taken from outside the School of Computing. You can list a maximum of 6 credits from outside SoC in your GS2");
     }
     if (gradLevel < 7) {
         issues.push("You have just "+gradLevel+" 800 level courses.");
@@ -102,6 +114,7 @@ var checkGrad = function(option) {
         issues.push("Being a thesis student, you're required to fulfill Implementation requirements.");
         graduateAble = 0;
     }
+
     if (graduateAble == 2) {
         $("#success #option").text(option);
         $("#success #concentration").text(concField);
