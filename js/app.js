@@ -8,15 +8,22 @@ var addCourse = function(datum) {
     if (addedCourses.indexOf(datum.courseid) == -1) {
         addedCourses.push(datum.courseid);
         addedCourseDatums.push(datum);
-        var course = '<div class="courseAdded alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+datum.courseid+':'+datum.coursename+'</div>';
+        var course = '<div class="courseAdded alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+datum.courseid+':'+datum.coursename+'</span></div>';
         $('#conc'+datum.type+' div.panel-body').append(course);
         $('#conc'+datum.type).collapse('show');
     }
+    console.log(addedCourseDatums);
+    console.log(addedCourses);
 }
 
 var removeCourse = function(text) {
     var removedID = text.substr(0,text.indexOf(":"));
     var removedIndex = addedCourses.indexOf(removedID);
+    console.log(addedCourseDatums);
+    console.log(addedCourses);
+    console.log(removedIndex);
+    console.log(removedID);
+    console.log(text);
     if (removedIndex > -1) {
         addedCourses.splice(removedIndex, 1);
     }
@@ -25,6 +32,8 @@ var removeCourse = function(text) {
             addedCourseDatums.splice(index,1);
         }
     });
+    console.log(addedCourseDatums);
+    console.log(addedCourses);
 }
 
 var checkGrad = function(option) {
@@ -197,6 +206,6 @@ $(document).ready(function(){
         ga('send', 'event', 'Issues', 'click', $(this).text(), -1);
     });
     $( document ).on( "click", ".alert", function() {
-        removeCourse($("strong",this).text());
+        removeCourse($("span",this).text());
     });
 });
