@@ -1,6 +1,7 @@
 [
   {
     "courseid": "CPSC 6620",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-all",
     "coursename": "Database Management Systems",
@@ -12,6 +13,7 @@
   },
   {
     "courseid": "CPSC 8100",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Introduction to Artificial Intelligence",
@@ -23,6 +25,7 @@
   },
   {
     "courseid": "CPSC 8450",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Bioinformatics Algorithms",
@@ -34,6 +37,7 @@
   },
   {
     "courseid": "CPSC 8620",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Database Management System Design",
@@ -45,6 +49,7 @@
   },
   {
     "courseid": "CPSC 8630",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-odd",
     "coursename": "Multimedia Systems and Applications",
@@ -56,6 +61,7 @@
   },
   {
     "courseid": "CPSC 8650",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-even",
     "coursename": "Data Mining",
@@ -67,6 +73,7 @@
   },
   {
     "courseid": "CPSC 8770",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Introduction to Biometrics",
@@ -80,6 +87,7 @@
 
   {
     "courseid": "CPSC 8280",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Theory of Programming Languages",
@@ -91,6 +99,7 @@
   },
   {
     "courseid": "CPSC 8380",
+    "allowDuplicate": false,
     "fall": "fall-even",
     "spring": "spring-none",
     "coursename": "Advanced Data Structures",
@@ -102,6 +111,7 @@
   },
   {
     "courseid": "CPSC 8390",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Foundations of Theoretical CS",
@@ -113,6 +123,7 @@
   },
   {
     "courseid": "CPSC 8400",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Design and Analysis of Algorithms",
@@ -124,6 +135,7 @@
   },
   {
     "courseid": "CPSC 9400",
+    "allowDuplicate": false,
     "fall": "fall-odd",
     "spring": "spring-none",
     "coursename": "Topics in Advanced Algorithms",
@@ -137,6 +149,7 @@
 
   {
     "courseid": "CPSC 6040",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Computer Graphics Images",
@@ -148,6 +161,7 @@
   },
   {
     "courseid": "CPSC 6050",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Computer Graphics",
@@ -159,6 +173,7 @@
   },
   {
     "courseid": "CPSC 8170",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Physically Based Animation",
@@ -170,6 +185,7 @@
   },
   {
     "courseid": "CPSC 8040",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Data Visualization",
@@ -181,6 +197,7 @@
   },
   {
     "courseid": "CPSC 8050",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Advanced Computer Graphics",
@@ -192,6 +209,7 @@
   },
   {
     "courseid": "CPSC 8190",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Physically Based Special Effects",
@@ -205,6 +223,7 @@
 
   {
     "courseid": "CPSC 6110",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Virtual Reality",
@@ -216,6 +235,7 @@
   },
   {
     "courseid": "CPSC 6140",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Human and Computer Interaction",
@@ -227,10 +247,11 @@
   },
   {
     "courseid": "CPSC 8310",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Introduction to Human Centered Computing",
-    "description": "No description available",
+    "description": "Fundamental concepts in human-centered computing, including human subjects, interface design, usability evaluation methods, software programming, information technology tools, ethics, policy, and current problems of interest to human-centered computing. ",
     "type": "InteractiveComputing",
     "typeFull": "Interactive Computing",
     "formal":false,
@@ -240,6 +261,7 @@
 
   {
     "courseid": "CPSC 8700",
+    "allowDuplicate": false,
     "fall": "fall-even",
     "spring": "spring-none",
     "coursename": "Software Design",
@@ -251,6 +273,7 @@
   },
   {
     "courseid": "CPSC 8710",
+    "allowDuplicate": false,
     "fall": "fall-odd",
     "spring": "spring-none",
     "coursename": "Foundations of Software Engineering",
@@ -262,6 +285,7 @@
   },
   {
     "courseid": "CPSC 8720",
+    "allowDuplicate": false,
     "fall": "fall-even",
     "spring": "spring-none",
     "coursename": "Software Specification and Design Techniques",
@@ -273,6 +297,7 @@
   },
   {
     "courseid": "CPSC 8730",
+    "allowDuplicate": false,
     "fall": "fall-odd",
     "spring": "spring-none",
     "coursename": "Software verification, validation and measurement",
@@ -284,6 +309,7 @@
   },
   {
     "courseid": "CPSC 8750",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Software Architecture",
@@ -297,6 +323,7 @@
 
   {
     "courseid": "CPSC 6060",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "General Purpose Computings on GPUs",
@@ -308,6 +335,7 @@
   },
   {
     "courseid": "CPSC 6240",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "System Administration and Security",
@@ -319,6 +347,7 @@
   },
   {
     "courseid": "CPSC 8200",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Parallel Architectures",
@@ -330,6 +359,7 @@
   },
   {
     "courseid": "CPSC 8240",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Advanced OS",
@@ -341,6 +371,7 @@
   },
   {
     "courseid": "CPSC 8220",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Case Study in Operating Systems",
@@ -352,6 +383,7 @@
   },
   {
     "courseid": "CPSC 8270",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-all",
     "coursename": "Translation of Programming Languages",
@@ -363,6 +395,7 @@
   },
   {
     "courseid": "CPSC 8290",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-all",
     "coursename": "Advanced Compiler Topics",
@@ -374,6 +407,7 @@
   },
   {
     "courseid": "CPSC 8300",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-even",
     "coursename": "Systems Modeling",
@@ -385,6 +419,7 @@
   },
   {
     "courseid": "CPSC 8510",
+    "allowDuplicate": false,
     "fall": "fall-all",
     "spring": "spring-none",
     "coursename": "Software Systems for Data Communications",
@@ -396,6 +431,7 @@
   },
   {
     "courseid": "CPSC 8550",
+    "allowDuplicate": false,
     "fall": "fall-none",
     "spring": "spring-all",
     "coursename": "Embedded Network Systems",
@@ -404,6 +440,30 @@
     "typeFull": "Systems and Implementation",
     "formal":false,
     "impl":true
+  },
+  {
+    "courseid": "Non-CPSC 6000",
+    "allowDuplicate": true,
+    "fall": "fall-all",
+    "spring": "spring-all",
+    "coursename": "Other 6000 level course",
+    "description": "No description available",
+    "type": "Other",
+    "typeFull": "Courses from Outside SoC",
+    "formal":false,
+    "impl":false
+  },
+  {
+    "courseid": "Non-CPSC 8000",
+    "allowDuplicate": true,
+    "fall": "fall-all",
+    "spring": "spring-all",
+    "coursename": "Other 8000 level course",
+    "description": "No description available",
+    "type": "Other",
+    "typeFull": "Courses from Outside SoC",
+    "formal":false,
+    "impl":false
   }
 
 ]
