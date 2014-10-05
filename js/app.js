@@ -5,7 +5,8 @@ var suggestionTemplateGen = function(obj){
 var addedCourses = [];
 var addedCourseDatums = [];
 var addCourse = function(datum) {
-    if (addedCourses.indexOf(datum.courseid) == -1) {
+    console.log(datum.allowDuplicate);
+    if (addedCourses.indexOf(datum.courseid) == -1 || datum.allowDuplicate) {
         addedCourses.push(datum.courseid);
         addedCourseDatums.push(datum);
         var course = '<div class="courseAdded alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+datum.courseid+':'+datum.coursename+'</span></div>';
